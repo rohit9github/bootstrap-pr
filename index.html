@@ -1,0 +1,1360 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Boomerang</title>
+	<link rel="icon" href="img/favicon.png">
+	<link rel="stylesheet" href="icons/themify-icons/themify-icons.css" type="text/css">
+	<link rel="stylesheet" type="text/css" href="fonts/poppins/stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="icons/font/bootstrap-icons.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/slick-theme.css" type="text/css">
+	<link rel="stylesheet" href="css/slick.css" type="text/css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/media.css">
+</head>
+
+<body>
+
+	<!-- LOADER -->
+
+	<div class="loader bg-light w-100 h-100 position-fixed z-3">
+		<div class="loader-inner position-absolute top-50 start-50 translate-middle">
+			<div class="loader-items position-relative">
+				<div class="bounce-1 position-absolute top-0 start-0 w-100 h-100 rounded-circle"></div>
+				<div class="bounce-2 position-absolute top-0 start-0 w-100 h-100 rounded-circle"></div>
+			</div>
+		</div>
+	</div>
+
+	<!-- HEADER -->
+
+	<header class="navbar navbar-expand-lg py-0 position-fixed top-0 start-0 end-0 z-2">
+		<div class="container-fluid">
+			<a href="javascript:void(0)" class="navbar-brand fw-semibold fs-5 text-white py-0">Boomerang</a>
+			<div class="icons order-lg-1 ">
+				<ul class="list-unstyled d-flex mb-0">
+					<li class="mx-4 py-3">
+						<a href="javascript:void(0)" class="position-relative fs-5 text-white d-inline-block"><i
+								class="bi bi-cart3"></i>
+							<span
+								class="rounded-circle fw-bold position-absolute top-0 start-0 translate-middle">3</span></a>
+					</li>
+					<li class="py-3">
+						<a href="#hey" data-bs-toggle="offcanvas"
+							class="toggle-menu text-decoration-none fs-4 text-white"><i class="bi bi-list"></i></a>
+					</li>
+				</ul>
+			</div>
+			<nav class="navbar-collapse flex-grow-0 collapse">
+				<ul class="navbar-nav">
+					<li class="position-relative py-lg-3">
+						<a href=" javascript:void(0)"
+							class=" nav-link fw-semibold mx-2 text-white  d-inline-block">HOME</a>
+						<div class="drop-down d-flex bg-white position-absolute top-100 rounded opacity-0 invisible px-4 py-5">
+							<ul class="list-unstyled mb-0 pe-5">
+								<li class="text-dark mb-3">MULTI PAGE</li>
+								<li>
+									<a href="javascript:void(0)"
+										class="text-decoration-none text-secondary d-inline-block mb-3 opacity-75">PARALLAX</a>
+								</li>
+								<li>
+									<a href="javascript:void(0)"
+										class="text-decoration-none text-secondary d-inline-block mb-3 opacity-75">SLIDER-FADE</a>
+								</li>
+								<li>
+									<a href="javascript:void(0)"
+										class="text-decoration-none text-secondary d-inline-block mb-3 opacity-75">SLIDER-SLIDE</a>
+								</li>
+								<li>
+									<a href="javascript:void(0)"
+										class="text-decoration-none text-secondary d-inline-block mb-3 opacity-75">GRADIENT
+										STYLE 1</a>
+								</li>
+								<li>
+									<a href="javascript:void(0)"
+										class="text-decoration-none text-secondary d-inline-block mb-3 opacity-75">GRADIENT
+										STYLE 2</a>
+								</li>
+								<li>
+									<a href="javascript:void(0)"
+										class="text-decoration-none text-secondary d-inline-block mb-3 opacity-75">LOACAL
+										VIDEO</a>
+								</li>
+								<li>
+									<a href="javascript:void(0)"
+										class="text-decoration-none text-secondary d-inline-block mb-3 opacity-75">VIMEO
+										VIDEO</a>
+								</li>
+								<li class="mb-0">
+									<a href="javascript:void(0)"
+										class="text-decoration-none text-secondary d-inline-block opacity-75">YOUTUBE
+										VIDEO</a>
+								</li>
+							</ul>
+							<ul class="list-unstyled pe-5 ps-4 mb-0">
+								<li class="text-dark mb-3">ONE PAGE</li>
+								<li>
+									<a href="javascript:void(0)"
+										class="text-decoration-none text-secondary d-inline-block mb-3 opacity-75">PARALLAX</a>
+								</li>
+								<li>
+									<a href="javascript:void(0)"
+										class="text-decoration-none text-secondary d-inline-block mb-3 opacity-75">SLIDER-FADE</a>
+								</li>
+								<li>
+									<a href="javascript:void(0)"
+										class="text-decoration-none text-secondary d-inline-block mb-3 opacity-75">SLIDER-SLIDE</a>
+								</li>
+								<li>
+									<a href="javascript:void(0)"
+										class="text-decoration-none text-secondary d-inline-block mb-3 opacity-75">GRADIENT
+										STYLE 1</a>
+								</li>
+								<li>
+									<a href="javascript:void(0)"
+										class="text-decoration-none text-secondary d-inline-block mb-3 opacity-75">GRADIENT
+										STYLE 2</a>
+								</li>
+								<li>
+									<a href="javascript:void(0)"
+										class="text-decoration-none text-secondary d-inline-block mb-3 opacity-75">LOACAL
+										VIDEO</a>
+								</li>
+								<li>
+									<a href="javascript:void(0)"
+										class="text-decoration-none text-secondary d-inline-block mb-3 opacity-75">VIMEO
+										VIDEO</a>
+								</li>
+								<li class="mb-0">
+									<a href="javascript:void(0)"
+										class="text-decoration-none text-secondary d-inline-block opacity-75">YOUTUBE
+										VIDEO</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li class="position-relative py-lg-3">
+						<a href="javascript:void(0)" class=" nav-link fw-semibold mx-2 text-white ">PAGES</a>
+						<div
+							class="drop-down d-flex bg-white position-absolute top-100 rounded opacity-0 invisible py-3 px-4">
+							<ul class="list-unstyled pe-5 mb-0 py-4">
+								<li class="text-dark mb-3">PAGES 1</li>
+								<li>
+									<a href="javascript:void(0)"
+										class="text-decoration-none text-secondary d-inline-block mb-3 opacity-75">ABOUT
+										US 1</a>
+								</li>
+								<li>
+									<a href="javascript:void(0)"
+										class="text-decoration-none text-secondary d-inline-block mb-3 opacity-75">ABOUT
+										US 2</a>
+								</li>
+								<li>
+									<a href="javascript:void(0)"
+										class="text-decoration-none text-secondary d-inline-block mb-3 opacity-75">SERVICES
+										1</a>
+								</li>
+								<li>
+									<a href="javascript:void(0)"
+										class="text-decoration-none text-secondary d-inline-block mb-3 opacity-75">SERVICES
+										2</a>
+								</li>
+								<li>
+									<a href="javascript:void(0)"
+										class="text-decoration-none text-secondary d-inline-block mb-3 opacity-75">TIMELINE</a>
+								</li>
+								<li>
+									<a href="javascript:void(0)"
+										class="text-decoration-none text-secondary d-inline-block mb-3 opacity-75">PRICING</a>
+								</li>
+								<li>
+									<a href="javascript:void(0)"
+										class="text-decoration-none text-secondary d-inline-block opacity-75">FAQS</a>
+								</li>
+							</ul>
+							<ul class="list-unstyled px-5 mb-0 py-4">
+								<li class="text-dark mb-3">PAGES 2</li>
+								<li>
+									<a href="javascript:void(0)"
+										class="text-decoration-none text-secondary d-inline-block mb-3 opacity-75">SIGN
+										IN</a>
+								</li>
+								<li>
+									<a href="javascript:void(0)"
+										class="text-decoration-none text-secondary d-inline-block mb-3 opacity-75">SIGN
+										UP</a>
+								</li>
+								<li>
+									<a href="javascript:void(0)"
+										class="text-decoration-none text-secondary d-inline-block mb-3 opacity-75">PASSWORD</a>
+								</li>
+								<li>
+									<a href="javascript:void(0)"
+										class="text-decoration-none text-secondary d-inline-block mb-3 opacity-75">CONTACT</a>
+								</li>
+								<li>
+									<a href="javascript:void(0)"
+										class="text-decoration-none text-secondary d-inline-block mb-3 opacity-75">MAP
+										CONTACT</a>
+								</li>
+								<li>
+									<a href="javascript:void(0)"
+										class="text-decoration-none text-secondary d-inline-block mb-3 opacity-75">IMAGE
+										CONTACT</a>
+								</li>
+								<li>
+									<a href="javascript:void(0)"
+										class="text-decoration-none text-secondary d-inline-block opacity-75">INVOICE</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li class="position-relative  py-lg-3">
+						<a href="javascript:void(0)" class=" nav-link fw-semibold mx-2 text-white ">PORTFOLIO</a>
+					</li>
+					<li class="position-relative py-lg-3">
+						<a href="javascript:void(0)" class=" nav-link fw-semibold mx-2 text-white">BLOG</a>
+					</li>
+					<li class="position-relative py-lg-3">
+						<a href="javascript:void(0)" class=" nav-link fw-semibold mx-2 text-white">SHOP</a>
+					</li>
+					<li class="position-relative py-lg-3">
+						<a href="javascript:void(0)" class=" nav-link fw-semibold mx-2 text-white">COMPONENTS</a>
+						<div class="drop-down d-flex bg-white position-absolute top-100 rounded opacity-0 invisible">
+							<ul class="list-unstyled mb-0 pe-5">
+								<li class="text-dark mb-3">GROUP 1</li>
+								<li>
+									<a href="javascript:void(0)"
+										class="text-decoration-none text-secondary d-inline-block mb-3 opacity-75 "><i class="bi bi-exclamation-triangle-fill me-2"></i>ALERTS</a>
+								</li>
+								<li>
+									<a href="javascript:void(0)"
+										class="text-decoration-none text-secondary d-inline-block mb-3 opacity-75 "><i class="bi bi-plus-square-fill me-2"></i>ACCORDION</a>
+								</li>
+								<li>
+									<a href="javascript:void(0)"
+										class="text-decoration-none text-secondary d-inline-block mb-3 opacity-75 "><i class="bi bi-link-45deg me-2"></i>BUTTONS</a>
+								</li>
+								<li>
+									<a href="javascript:void(0)"
+										class="text-decoration-none text-secondary d-inline-block mb-3 opacity-75 "><i class="bi bi-wordpress me-2"></i>CLIENTS</a>
+								</li>
+								<li>
+									<a href="javascript:void(0)"
+										class="text-decoration-none text-secondary d-inline-block mb-3 opacity-75 "><i class="bi bi-superscript me-2"></i>COUNTERS</a>
+								</li>
+								<li>
+									<a href="javascript:void(0)"
+										class="text-decoration-none text-secondary d-inline-block mb-3 opacity-75 "><i class="bi bi-map-fill me-2"></i>GOOGLE MAPS</a>
+								</li>
+								<li>
+									<a href="javascript:void(0)"
+										class="text-decoration-none text-secondary d-inline-block mb-3 opacity-75 "><i class="bi bi-grid-3x3-gap-fill me-2"></i>GRID</a>
+								</li>
+								<li>
+									<a href="javascript:void(0)"
+										class="text-decoration-none text-secondary d-inline-block mb-3 opacity-75 "><i class="bi bi-collection-fill me-2"></i>HERO</a>
+								</li>
+								<li>
+									<a href="javascript:void(0)"
+										class="text-decoration-none text-secondary d-inline-block opacity-75 "><i class="bi bi-type-bold me-2"></i>ICONBOX</a>
+								</li>
+							</ul>
+							<ul class="list-unstyled mb-0 mx-4">
+								<li class="text-dark mb-3">GROUP 2</li>
+								<li>
+									<a href="javascript:void(0)"
+										class="text-decoration-none text-secondary d-inline-block mb-3 opacity-75"><i class="bi bi-list me-2"></i>INPUTS</a>
+								</li>
+								<li>
+									<a href="javascript:void(0)"
+										class="text-decoration-none text-secondary d-inline-block mb-3 opacity-75"><i class="bi bi-plus-square-fill me-2"></i>MODAL</a>
+								</li>
+								<li>
+									<a href="javascript:void(0)"
+										class="text-decoration-none text-secondary d-inline-block mb-3 opacity-75"><i class="bi bi-pie-chart-fill me-2"></i>PIE-CHARTS</a>
+								</li>
+								<li>
+									<a href="javascript:void(0)"
+										class="text-decoration-none text-secondary d-inline-block mb-3 opacity-75"><i class="bi bi-coin me-2"></i>PRICING TABLES</a>
+								</li>
+								<li>
+									<a href="javascript:void(0)"
+										class="text-decoration-none text-secondary d-inline-block mb-3 opacity-75"><i class="bi bi-list-check me-2"></i>PROGRESS BARS</a>
+								</li>
+								<li>
+									<a href="javascript:void(0)"
+										class="text-decoration-none text-secondary d-inline-block mb-3 opacity-75"><i class="bi bi-collection-fill me-2"></i>SECTIONS</a>
+								</li>
+								<li>
+									<a href="javascript:void(0)"
+										class="text-decoration-none text-secondary d-inline-block mb-3 opacity-75"><i class="bi bi-image-fill me-2"></i>SLIDERS</a>
+								</li>
+								<li>
+									<a href="javascript:void(0)"
+										class="text-decoration-none text-secondary d-inline-block mb-3 opacity-75"><i class="bi bi-table me-2"></i>TABS</a>
+								</li>
+								<li>
+									<a href="javascript:void(0)"
+										class="text-decoration-none text-secondary d-inline-block opacity-75"><i class="bi bi-microsoft-teams me-2"></i>TEAM</a>
+								</li>
+							</ul>
+							<ul class="list-unstyled mb-0 ps-4">
+								<li class="text-dark mb-3">GROUP 3</li>
+								<li>
+									<a href="javascript:void(0)"
+										class="text-decoration-none text-secondary d-inline-block mb-3 opacity-75"><i class="bi bi-chat-quote me-2"></i>TESTIMONIALS</a>
+								</li>
+								<li>
+									<a href="javascript:void(0)"
+										class="text-decoration-none text-secondary d-inline-block mb-3 opacity-75"><i class="bi bi-question-octagon me-2"></i>TOOLTIPS</a>
+								</li>
+								<li>
+									<a href="javascript:void(0)"
+										class="text-decoration-none text-secondary d-inline-block mb-3 opacity-75"><i class="bi bi-type me-2"></i>TYPOGRAPHY</a>
+								</li>
+								<li>
+									<a href="javascript:void(0)"
+										class="text-decoration-none text-secondary d-inline-block mb-3 opacity-75"><i class="bi bi-youtube me-2"></i>VIDEO</a>
+								</li>
+								<li>
+									<a href="javascript:void(0)"
+										class="text-decoration-none text-secondary d-inline-block opacity-75"><i class="bi bi-info-circle-fill me-2"></i>DOCUMENTAION</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li class="position-relative  py-lg-3">
+						<a href="javascript:void(0)" class=" nav-link fw-semibold mx-2 text-white">DEMOS</a>
+					</li>
+				</ul>
+			</nav>
+
+		</div>
+	</header>
+
+	<!-- OFFCANVAS -->
+
+	<div class="offcanvas offcanvas-end bg-dark p-5 overflow-y-scroll" id="hey" data-bs-backdrop="false">
+		<div class="text-center">
+			<a href="javascript:void(0)" class="btn-close btn-close-white ms-auto d-block"
+				data-bs-dismiss="offcanvas"></a>
+			<img src="img/offcanvas.png" width="80px" class="mt-5">
+			<p class="text-secondary mb-5 mt-3">See how users experience your website in realtime to see changes.</p>
+		</div>
+		<div class="mt-1">
+			<div class="row">
+				<div class="col-xl-4">
+					<div class="offcanvas-items p-1">
+						<a href="javascript:void(0)">
+							<img src="img/offcanvas-1.jpg" alt="offcanvas-1" title="offcanvas-1" class="img-fluid">
+						</a>
+					</div>
+				</div>
+				<div class="col-xl-4">
+					<div class="offcanvas-items p-1">
+						<a href="javascript:void(0)">
+							<img src="img/offcanvas-2.jpg" alt="offcanvas-2" title="offcanvas-2" class="img-fluid">
+						</a>
+					</div>
+				</div>
+				<div class="col-xl-4">
+					<div class="offcanvas-items p-1">
+						<a href="javascript:void(0)">
+							<img src="img/offcanvas-3.jpg" alt="offcanvas-3" title="offcanvas-3" class="img-fluid">
+						</a>
+					</div>
+				</div>
+				<div class="col-xl-4">
+					<div class="offcanvas-items p-1">
+						<a href="javascript:void(0)">
+							<img src="img/offcanvas-4.jpg" alt="offcanvas-4" title="offcanvas-4" class="img-fluid">
+						</a>
+					</div>
+				</div>
+				<div class="col-xl-4">
+					<div class="offcanvas-items p-1">
+						<a href="javascript:void(0)">
+							<img src="img/offcanvas-5.jpg" alt="offcanvas-5" title="offcanvas-5" class="img-fluid">
+						</a>
+					</div>
+				</div>
+				<div class="col-xl-4">
+					<div class="offcanvas-items">
+						<a href="javascript:void(0)">
+							<img src="img/offcanvas-6.jpg" alt="offcanvas-6" title="offcanvas-6" class="img-fluid">
+						</a>
+					</div>
+				</div>
+				<div class="col-xl-4">
+					<div class="offcanvas-items p-1">
+						<a href="javascript:void(0)">
+							<img src="img/offcanvas-7.jpg" alt="offcanvas-7" title="offcanvas-7" class="img-fluid">
+						</a>
+					</div>
+				</div>
+				<div class="col-xl-4">
+					<div class="offcanvas-items p-1">
+						<a href="javascript:void(0)">
+							<img src="img/offcanvas-8.jpg" alt="offcanvas-8" title="offcanvas-8" class="img-fluid">
+						</a>
+					</div>
+				</div>
+				<div class="col-xl-4">
+					<div class="offcanvas-items p-1">
+						<a href="javascript:void(0)">
+							<img src="img/offcanvas-9.jpg" alt="offcanvas-9" title="offcanvas-9" class="img-fluid">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="mt-5">
+			<ul class="list-unstyled d-flex justify-content-center">
+				<li>
+					<a href="javascript:void(0)" class="text-decoration-none me-3 text-white"><i
+							class="bi bi-twitter"></i></a>
+				</li>
+				<li>
+					<a href="javascript:void(0)" class="text-decoration-none me-3 text-white"><i
+							class="bi bi-instagram"></i></a>
+				</li>
+				<li>
+					<a href="javascript:void(0)" class="text-decoration-none me-3 text-white"><i
+							class="bi bi-facebook"></i></a>
+				</li>
+				<li>
+					<a href="javascript:void(0)" class="text-decoration-none me-3 text-white"><i
+							class="bi bi-pinterest"></i></a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+
+	<!-- MAIN -->
+
+	<main>
+
+		<!-- SLIDER -->
+
+		<section id="top">
+			<div id="carouselExample" class="carousel slide">
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<div class="d-flex text-center justify-content-center align-items-center h-100">
+							<div class="banner-content">
+								<h2 class="text-white display-2 fw-semibold mb-0">Your customers will love you one
+									minute from now.</h2>
+								<p class="text-white w-50 mx-auto my-5">See how your users experience your website in
+									realtime or view trends to see any changes in performance over time.</p>
+								<a href="javascript:void(0)"
+									class="btn btn-primary py-3 px-4 rounded-pill fw-semibold">GET STARTED</a>
+								<a href="javascript:void(0)"
+									class="btn btn-outline-light border-2 py-3 px-4 rounded-pill ms-3 fw-semibold">LEARN
+									MORE</a>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="d-flex text-center justify-content-center align-items-center h-100">
+							<div class="banner-content">
+								<h2 class="text-white display-2 fw-semibold mb-0">Your customers will love you one
+									minute from now.</h2>
+								<p class="text-white w-50 mx-auto my-5">See how your users experience your website in
+									realtime or view trends to see any changes in performance over time.</p>
+								<a href="javascript:void(0)"
+									class="btn btn-primary py-3 px-4 rounded-pill fw-semibold">GET STARTED</a>
+								<a href="javascript:void(0)"
+									class="btn btn-outline-light border-2 py-3 px-4 rounded-pill ms-3 fw-semibold">LEARN
+									MORE</a>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="d-flex text-center justify-content-center align-items-center h-100">
+							<div class="banner-content">
+								<h2 class="text-white display-2 fw-semibold mb-0">Your customers will love you one
+									minute from now.</h2>
+								<p class="text-white w-50 mx-auto my-5">See how your users experience your website in
+									realtime or view trends to see any changes in performance over time.</p>
+								<a href="javascript:void(0)"
+									class="btn btn-primary py-3 px-4 rounded-pill fw-semibold">GET STARTED</a>
+								<a href="javascript:void(0)"
+									class="btn btn-outline-light border-2 py-3 px-4 rounded-pill ms-3 fw-semibold">LEARN
+									MORE</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<button class="carousel-control-prev border top-50 transalate-middle-y ms-2 ms-md-3 ms-lg-4 ms-xl-5"
+					data-bs-target="#carouselExample" data-bs-slide="prev">
+					<span class="carousel-control-prev-icon"></span>
+				</button>
+				<button class="carousel-control-next border top-50 transalate-middle-y me-2 me-md-3 me-lg-4 me-lg-5"
+					data-bs-target="#carouselExample" data-bs-slide="next">
+					<span class="carousel-control-next-icon"></span>
+				</button>
+			</div>
+		</section>
+
+		<!-- YOUR-SITE -->
+
+		<section class="your-site border-bottom bg-light">
+			<div class="container">
+				<div class="your-site-title text-center">
+					<h2 class="display-6 mb-3">Your Site, Your Way.</h2>
+					<p class="mx-auto text-secondary">See how your users experience your website in realtime or view
+						trends to see any changes in performance over time.</p>
+				</div>
+				<div class="your-site-img text-center mt-5">
+					<img src="img/your-site.png" alt="your-site-img" title="your-site-img" class="img-fluid">
+				</div>
+			</div>
+		</section>
+
+		<!-- DIGITAL-DESIGN -->
+
+		<section class="digital-design">
+			<div class="digital-design-title text-center">
+				<h2 class="display-6 mb-3">Digital Design.</h2>
+				<p class="mx-auto text-secondary mb-0">See how your users experience your website in realtime or view
+					trends to see any changes in performance over time.</p>
+				<nav class="my-5">
+					<ul class="breadcrumb justify-content-center">
+						<li class="breadcrumb-item">
+							<a href="javascript:void(0)" class="text-decoration-none text-dark fst-italic">All</a>
+						</li class="breadcrumb">
+						<li class="breadcrumb-item">
+							<a href="javascript:void(0)"
+								class="text-decoration-none text-secondary opacity-50 fst-italic">Branding</a>
+						</li class="breadcrumb">
+						<li class="breadcrumb-item">
+							<a href="javascript:void(0)"
+								class="text-decoration-none text-secondary opacity-50 fst-italic">Digital</a>
+						</li class="breadcrumb">
+						<li class="breadcrumb-item">
+							<a href="javascript:void(0)"
+								class="text-decoration-none text-secondary opacity-50 fst-italic">Packaging</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+			<div class="digital-design-inner">
+				<div class="row mx-0">
+					<div class="col-md-6 col-xxl-4 col-xl-4">
+						<div class="digital-design-item mx-2 mb-3 position-relative overflow-hidden">
+							<div class="digital-design-img">
+								<img src="img/digital-img-1.jpg" alt="digital-img-1" title="digital-img-1"
+									class="img-fluid">
+								<div
+									class="digital-content text-center position-absolute top-100 start-50 translate-middle-x py-3">
+									<h5>Solave Cleanser</h5>
+									<p class="text-secondary fst-italic">Digital</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-xxl-4 col-xl-4">
+						<div class="digital-design-item mx-2 mb-3 position-relative overflow-hidden">
+							<div class="digital-design-img">
+								<img src="img/digital-img-2.jpg" alt="digital-img-2" title="digital-img-2"
+									class="img-fluid">
+								<div
+									class="digital-content text-center position-absolute top-100 start-50 translate-middle-x py-3">
+									<h5>Monochrome</h5>
+									<p class="text-secondary fst-italic">Branding</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-xxl-4 col-xl-4">
+						<div class="digital-design-item mx-2 mb-3 position-relative overflow-hidden">
+							<div class="digital-design-img">
+								<img src="img/digital-img-3.jpg" alt="digital-img-3" title="digital-img-3"
+									class="img-fluid">
+								<div
+									class="digital-content text-center position-absolute top-100 start-50 translate-middle-x py-3">
+									<h5>Ellie Cashman</h5>
+									<p class="text-secondary fst-italic">Packaging</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-xxl-4 col-xl-4">
+						<div class="digital-design-item mx-2 position-relative overflow-hidden mb-3">
+							<div class="digital-design-img">
+								<img src="img/digital-img-4.jpg" alt="digital-img-4" title="digital-img-4"
+									class="img-fluid">
+								<div
+									class="digital-content text-center position-absolute top-100 start-50 translate-middle-x py-3">
+									<h5>White Sleeve</h5>
+									<p class="text-secondary fst-italic">Digital</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-xxl-4 col-xl-4">
+						<div class="digital-design-item mx-2 position-relative overflow-hidden mb-3">
+							<div class="digital-design-img">
+								<img src="img/digital-img-5.jpg" alt="digital-img-5" title="digital-img-5"
+									class="img-fluid">
+								<div
+									class="digital-content text-center position-absolute top-100 start-50 translate-middle-x py-3">
+									<h5>Classic Socks</h5>
+									<p class="text-secondary fst-italic">Branding</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-xxl-4 col-xl-4">
+						<div class="digital-design-item mx-2 position-relative overflow-hidden mb-3">
+							<div class="digital-design-img">
+								<img src="img/digital-img-6.jpg" alt="digital-img-6" title="digital-img-6"
+									class="img-fluid">
+								<div
+									class="digital-content text-center position-absolute top-100 start-50 translate-middle-x py-3">
+									<h5>Expirience</h5>
+									<p class="text-secondary fst-italic">Packaging</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- SERVICES -->
+
+		<section class="services mb-5">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-xxl-4 col-xl-4">
+						<div class="services-items p-4">
+							<img src="img/services-1.png" alt="services-1" title="services-1">
+							<h6 class="my-3">Visual Composer</h6>
+							<p class="text-secondary">See how your users experience your website in realtime or view
+								trends to see any changes in performance over time.</p>
+						</div>
+					</div>
+					<div class="col-md-6 col-xxl-4 col-xl-4">
+						<div class="services-items p-4">
+							<img src="img/services-2.png" alt="services-2" title="services-2">
+							<h6 class="my-3">Revolution Slider</h6>
+							<p class="text-secondary">See how your users experience your website in realtime or view
+								trends to see any changes in performance over time.</p>
+						</div>
+					</div>
+					<div class="col-md-6 col-xxl-4 col-xl-4">
+						<div class="services-items p-4">
+							<img src="img/services-3.png" alt="services-3" title="services-3">
+							<h6 class="my-3">User Experience</h6>
+							<p class="text-secondary">See how your users experience your website in realtime or view
+								trends to see any changes in performance over time.</p>
+						</div>
+					</div>
+					<div class="col-md-6 col-xxl-4 col-xl-4">
+						<div class="services-items p-4">
+							<img src="img/services-4.png" alt="services-4" title="services-4">
+							<h6 class="my-3">Great Support</h6>
+							<p class="text-secondary">See how your users experience your website in realtime or view
+								trends to see any changes in performance over time.</p>
+						</div>
+					</div>
+					<div class="col-md-6 col-xxl-4 col-xl-4">
+						<div class="services-items p-4">
+							<img src="img/services-5.png" alt="services-5" title="services-5">
+							<h6 class="my-3">Fully Responsive</h6>
+							<p class="text-secondary">See how your users experience your website in realtime or view
+								trends to see any changes in performance over time.</p>
+						</div>
+					</div>
+					<div class="col-md-6 col-xxl-4 col-xl-4">
+						<div class="services-items p-4">
+							<img src="img/services-6.png" alt="services-6" title="services-6">
+							<h6 class="my-3">Trendy Design</h6>
+							<p class="text-secondary">See how your users experience your website in realtime or view
+								trends to see any changes in performance over time.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- FLEXIBLE -->
+
+		<section class="flexible bg-light">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-lg-6 col-xxl-6 col-xl-6">
+						<div class="flexible-img">
+							<img src="img/ipad.png" alt="ipad" title="ipad" class="img-fluid">
+						</div>
+					</div>
+					<div class="col-lg-6 col-xxl-6 col-xl-6">
+						<div class="flexible-content ps-5">
+							<h2 class="display-6 mb-3">Flexible & Lightweight.</h2>
+							<p class="text-secondary">See how your users experience your website in realtime or view
+								trends to see any changes in performance over time.</p>
+							<ul class="list-unstyled d-flex mt-5">
+								<li class="me-4">
+									<img src="img/flexible-1.png" alt="flexible-1" title="flexible-1">
+								</li>
+								<li>
+									<h6 class="mb-3">Visual Composer</h6>
+									<p class="text-secondary">Map where your photos were taken and discover local points
+										of interest. Map where your photos. Map where your photos were taken and
+										discover.</p>
+								</li>
+							</ul>
+							<ul class="list-unstyled d-flex mt-4">
+								<li class="me-4">
+									<img src="img/flexible-2.png" alt="flexible-2" title="flexible-2">
+								</li>
+								<li>
+									<h6 class="mb-3">Revolution Slider</h6>
+									<p class="text-secondary">Map where your photos were taken and discover local points
+										of interest. Map where your photos. Map where your photos were taken and
+										discover.</p>
+								</li>
+							</ul>
+							<ul class="list-unstyled d-flex mt-4">
+								<li class="me-4">
+									<img src="img/flexible-3.png" alt="flexible-3" title="flexible-3">
+								</li>
+								<li>
+									<h6 class="mb-3">User Experience</h6>
+									<p class="text-secondary">Map where your photos were taken and discover local points
+										of interest. Map where your photos. Map where your photos were taken and
+										discover.</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- CREATIVE -->
+
+		<section class="creative">
+			<div class="container">
+				<div class="creative-title text-center">
+					<h2 class="display-6 mb-3">Creative People.</h2>
+					<p class="mx-auto text-secondary">See how your users experience your website in realtime or view
+						trends to see any changes in performance over time.</p>
+				</div>
+				<div class="creative-inner mt-5">
+					<div class="row">
+						<div class="col-md-6 col-xxl-4 col-xl-4">
+							<div class="creative-items m-3 position-relative">
+								<img src="img/creative-1.jpg" alt="creative-1" title="creative-1"
+									class="img-fluid rounded">
+								<ul class="list-unstyled position-absolute end-0 top-0 me-4 mt-3 opacity-0">
+									<li class="mb-2">
+										<a href="javascript:void(0)" class="text-white"><i
+												class="bi bi-twitter"></i></a>
+									</li>
+									<li class="mb-2">
+										<a href="javascript:void(0)" class="text-white"><i
+												class="bi bi-instagram"></i></a>
+									</li>
+									<li class="mb-2">
+										<a href="javascript:void(0)" class="text-white"><i
+												class="bi bi-pinterest"></i></a>
+									</li>
+								</ul>
+								<ul class="list-unstyled position-absolute start-0 bottom-0 ms-3 opacity-0">
+									<li>
+										<h6 class="text-white mb-1">Emma Connor</h6>
+										<p class="text-white opacity-50 mb-0">Designer</p>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-6 col-xxl-4 col-xl-4">
+							<div class="creative-items m-3 position-relative">
+								<img src="img/creative-2.jpg" alt="creative-2" title="creative-2"
+									class="img-fluid rounded">
+								<ul class="list-unstyled position-absolute end-0 top-0 me-4 mt-3 opacity-0">
+									<li class="mb-2">
+										<a href="javascript:void(0)" class="text-white"><i
+												class="bi bi-twitter"></i></a>
+									</li>
+									<li class="mb-2">
+										<a href="javascript:void(0)" class="text-white"><i
+												class="bi bi-instagram"></i></a>
+									</li>
+									<li class="mb-2">
+										<a href="javascript:void(0)" class="text-white"><i
+												class="bi bi-pinterest"></i></a>
+									</li>
+								</ul>
+								<ul class="list-unstyled position-absolute start-0 bottom-0 ms-3 opacity-0">
+									<li>
+										<h6 class="text-white mb-1">Richard Bauer</h6>
+										<p class="text-white opacity-50 mb-0">Developer</p>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-6 col-xxl-4 col-xl-4">
+							<div class="creative-items m-3 position-relative">
+								<img src="img/creative-3.jpg" alt="creative-3" title="creative-3"
+									class="img-fluid rounded">
+								<ul class="list-unstyled position-absolute end-0 top-0  me-4 mt-3 opacity-0">
+									<li class="mb-2">
+										<a href="javascript:void(0)" class="text-white"><i
+												class="bi bi-twitter"></i></a>
+									</li>
+									<li class="mb-2">
+										<a href="javascript:void(0)" class="text-white"><i
+												class="bi bi-instagram"></i></a>
+									</li>
+									<li class="mb-2">
+										<a href="javascript:void(0)" class="text-white"><i
+												class="bi bi-pinterest"></i></a>
+									</li>
+								</ul>
+								<ul class="list-unstyled position-absolute start-0 bottom-0  ms-3 opacity-0">
+									<li>
+										<h6 class="text-white mb-1">John Pope</h6>
+										<p class="text-white opacity-50 mb-0">Founder</p>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-6 col-xxl-4 col-xl-4">
+							<div class="creative-items m-3 position-relative">
+								<img src="img/creative-4.jpg" alt="creative-4" title="creative-4"
+									class="img-fluid rounded">
+								<ul class="list-unstyled position-absolute end-0 top-0 me-4 mt-3 opacity-0">
+									<li class="mb-2">
+										<a href="javascript:void(0)" class="text-white"><i
+												class="bi bi-twitter"></i></a>
+									</li>
+									<li class="mb-2">
+										<a href="javascript:void(0)" class="text-white"><i
+												class="bi bi-instagram"></i></a>
+									</li>
+									<li class="mb-2">
+										<a href="javascript:void(0)" class="text-white"><i
+												class="bi bi-pinterest"></i></a>
+									</li>
+								</ul>
+								<ul class="list-unstyled position-absolute start-0 bottom-0 ms-3 opacity-0">
+									<li>
+										<h6 class="text-white mb-1">Sara Smith</h6>
+										<p class="text-white opacity-50 mb-0">Designer</p>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-6 col-xxl-4 col-xl-4">
+							<div class="creative-items m-3 position-relative">
+								<img src="img/creative-5.jpg" alt="creative-5" title="creative-5"
+									class="img-fluid rounded">
+								<ul class="list-unstyled position-absolute end-0 top-0 me-4 mt-3 opacity-0">
+									<li class="mb-2">
+										<a href="javascript:void(0)" class="text-white"><i
+												class="bi bi-twitter"></i></a>
+									</li>
+									<li class="mb-2">
+										<a href="javascript:void(0)" class="text-white"><i
+												class="bi bi-instagram"></i></a>
+									</li>
+									<li class="mb-2">
+										<a href="javascript:void(0)" class="text-white"><i
+												class="bi bi-pinterest"></i></a>
+									</li>
+								</ul>
+								<ul class="list-unstyled position-absolute start-0 bottom-0 ms-3 opacity-0">
+									<li>
+										<h6 class="text-white mb-1">Emma Connor</h6>
+										<p class="text-white opacity-50 mb-0">Developer</p>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-6 col-xxl-4 col-xl-4">
+							<div class="creative-items m-3 position-relative">
+								<img src="img/creative-6.jpg" alt="creative-6" title="creative-6"
+									class="img-fluid rounded">
+								<ul class="list-unstyled position-absolute end-0 top-0 me-4 mt-3 opacity-0 mb-4">
+									<li class="mb-2">
+										<a href="javascript:void(0)" class="text-white"><i
+												class="bi bi-twitter"></i></a>
+									</li>
+									<li class="mb-2">
+										<a href="javascript:void(0)" class="text-white"><i
+												class="bi bi-instagram"></i></a>
+									</li>
+									<li class="mb-2">
+										<a href="javascript:void(0)" class="text-white"><i
+												class="bi bi-pinterest"></i></a>
+									</li>
+								</ul>
+								<ul class="list-unstyled position-absolute start-0 bottom-0 ms-3 opacity-0">
+									<li>
+										<h6 class="text-white mb-1">Peter Chapman</h6>
+										<p class="text-white opacity-50 mb-0">Founder</p>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="w-100 text-center mt-4">
+							<a href="javascript:void(0)" class="btn-outline-primary btn py-3 px-4 rounded-pill">ABOUT
+								US</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<!-- TESTIMONIAL -->
+
+		<section class="testimonial d-flex align-items-center">
+			<div class="container">
+				<div class="autoplay">
+					<div class="col-xxl-12 col-xl-12">
+						<div class="testimonial-item text-center ">
+							<img src="img/testimonial-1.jpg" alt="testimonial-1" title="testimonial-1" width="80px"
+								class="rounded-circle mx-auto">
+							<p class="mx-auto text-white my-3">I don't work from drawings. I don't make sketches and
+								drawings. and color sketches into a final painting.</p>
+							<h6 class="text-white">Albert Einstein</h6>
+						</div>
+					</div>
+					<div class="col-xxl-12 col-xl-12">
+						<div class="testimonial-item text-center ">
+							<img src="img/testimonial-1.jpg" alt="testimonial-1" title="testimonial-1" width="80px"
+								class="rounded-circle mx-auto">
+							<p class="mx-auto text-white my-3">To be yourself in a world that is constantly trying to
+								make you something else is the greatest accomplishment.</p>
+							<h6 class="text-white">Ralph Waldo Emerson</h6>
+						</div>
+					</div>
+					<div class="col-xxl-12 col-xl-12">
+						<div class="testimonial-item text-center ">
+							<img src="img/testimonial-1.jpg" alt="testimonial-1" title="testimonial-1" width="80px"
+								class="rounded-circle mx-auto">
+							<p class="mx-auto text-white my-3">Imperfection is beauty, madness is genius and it's better
+								to
+								be absolutely ridiculous than absolutely boring.</p>
+							<h6 class="text-white">Marilyn Monroe</h6>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- PRICING -->
+
+		<section class="pricing  bg-light">
+			<div class="container">
+				<div class="pricing-content">
+					<div class="row">
+						<div class="col-md-6 col-xl-4">
+							<div class="pricing-item text-center border bg-white mb-3">
+								<i class="ti-slice fs-1 mb-3"></i>
+								<p class="border-bottom pb-4 pt-3">STARTER</p>
+								<h2 class="display-4 fw-semibold mb-0 mt-4">Free</h2>
+								<p class="text-secondary my-4">Map where your photos were taken and discover local
+									points of
+									interest.</p>
+								<a href="jaavascript:void(0)"
+									class="btn btn-primary py-3 px-4 rounded-pill">DOWNLOAD</a>
+							</div>
+						</div>
+						<div class="col-md-6 col-xl-4">
+							<div class="pricing-item text-center p-5 border  bg-white mb-3 ms-3 ms-xl-0">
+								<i class="ti-pin-alt fs-1 mb-3"></i>
+								<p class="border-bottom pb-4 pt-3">STANDARD</p>
+								<h2 class="display-4 fw-semibold mb-0 mt-4"><span class="d-inline-block">$</span>45</h2>
+								<p class="text-secondary my-4">Map where your photos were taken and discover local
+									points of
+									interest.</p>
+								<a href="jaavascript:void(0)"
+									class="btn btn-primary py-3 px-4 rounded-pill">DOWNLOAD</a>
+							</div>
+						</div>
+						<div class="col-md-6 col-xl-4">
+							<div class="pricing-item text-center p-5 border bg-white mb-3">
+								<i class="ti-marker-alt fs-1 mb-3"></i>
+								<p class="border-bottom pb-4 pt-3">PROFESSIONAL</p>
+								<h2 class="display-4 fw-semibold mb-0 mt-4"><span class="d-inline-block">$</span>69</h2>
+								<p class="text-secondary my-4">Map where your photos were taken and discover local
+									points of
+									interest.</p>
+								<a href="jaavascript:void(0)"
+									class="btn btn-primary py-3 px-4 rounded-pill">DOWNLOAD</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="pricing-inner">
+					<div class="row multiple-items">
+						<div class="client-item text-center">
+							<div class="client-img">
+								<img src="img/1.png" alt="client-1" title="client-1" class="img-fluid opacity-50">
+							</div>
+						</div>
+						<div class="client-item text-center">
+							<div class="client-img">
+								<img src="img/2.png" alt="client-2" title="client-2" class="img-fluid opacity-50">
+							</div>
+						</div>
+						<div class="client-item text-center">
+							<div class="client-img">
+								<img src="img/3.png" alt="client-3" title="client-3" class="img-fluid opacity-50">
+							</div>
+						</div>
+						<div class="client-item text-center">
+							<div class="client-img">
+								<img src="img/4.png" alt="client-4" title="client-4" class="img-fluid opacity-50">
+							</div>
+						</div>
+						<div class="client-item text-center">
+							<div class="client-img">
+								<img src="img/5.png" alt="client-5" title="client-5" class="img-fluid opacity-50">
+							</div>
+						</div>
+						<div class="client-item text-center">
+							<div class="client-img">
+								<img src="img/6.png" alt="client-6" title="client-6" class="img-fluid opacity-50">
+							</div>
+						</div>
+						<div class="client-item text-center">
+							<div class="client-img">
+								<img src="img/7.png" alt="client-7" title="client-7" class="img-fluid opacity-50">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<!-- ARTICLES -->
+
+		<section class="articles">
+			<div class="container">
+				<div class="articles-title text-center">
+					<h2 class="display-6 mb-3">Latest articles.</h2>
+					<p class="text-secondary mx-auto">See how your users experience your website in realtime or view
+						trends to see any changes in performance over time.</p>
+				</div>
+				<div class="articles-inner mt-5">
+					<div class="row">
+						<div class="col-md-6 col-xxl-4 col-xl-4">
+							<div class="articles-items p-3">
+								<div class="articles-img mb-2">
+									<img src="img/articles-1.jpg" alt="articles-1" title="articles-1"
+										class="img-fluid rounded">
+								</div>
+								<div class="articles-content">
+									<h6 class="py-4 mb-0"><a href="javascript:void(0)"
+											class="text-decoration-none text-dark">Bluetooth Speaker</a></h6>
+									<p class="text-secondary">See how your users experience your website in realtime or
+										view trends to see any changes in performance over time.</p>
+									<a href="javascript:vopid(0)" class="text-decoration-none">Read more</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 col-xxl-4 col-xl-4">
+							<div class="articles-items p-3">
+								<div class="articles-img mb-2">
+									<img src="img/articles-2.jpg" alt="articles-2" title="articles-2"
+										class="img-fluid rounded">
+								</div>
+								<div class="articles-content">
+									<h6 class="py-4 mb-0"><a href="javascript:void(0)"
+											class="text-decoration-none text-dark">Minimalist Chandelier</a></h6>
+									<p class="text-secondary">See how your users experience your website in realtime or
+										view trends to see any changes in performance over time.</p>
+									<a href="javascript:vopid(0)" class="text-decoration-none">Read more</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 col-xxl-4 col-xl-4">
+							<div class="articles-items p-3">
+								<div class="articles-img mb-2">
+									<img src="img/articles-3.jpg" alt="articles-3" title="articles-3"
+										class="img-fluid rounded">
+								</div>
+								<div class="articles-content">
+									<h6 class="py-4 mb-0"><a href="javascript:void(0)"
+											class="text-decoration-none text-dark">Standard Shape</a></h6>
+									<p class="text-secondary">See how your users experience your website in realtime or
+										view trends to see any changes in performance over time.</p>
+									<a href="javascript:vopid(0)" class="text-decoration-none">Read more</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- VALUTION -->
+
+		<section class="valution bg-light">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-6 col-lg-3">
+						<div class="valution-items text-center">
+							<i class="bi bi-lightning-charge fs-1 text-primary"></i>
+							<h2 class="display-5 fw-semibold mt-1 counter">1538</h2>
+							<p class="text-secondary">Happy Clients</p>
+						</div>
+					</div>
+					<div class="col-sm-6 col-lg-3">
+						<div class="valution-items text-center">
+							<i class="bi bi-controller fs-1 text-primary"></i>
+							<h2 class="display-5 fw-semibold mt-1 counter">2124</h2>
+							<p class="text-secondary">Total downloads</p>
+						</div>
+					</div>
+					<div class="col-sm-6 col-lg-3">
+						<div class="valution-items text-center">
+							<i class="bi bi-fire fs-1 text-primary"></i>
+							<h2 class="display-5 fw-semibold mt-1 counter">3128</h2>
+							<p class="text-secondary">Awards Won</p>
+						</div>
+					</div>
+					<div class="col-sm-6 col-lg-3">
+						<div class="valution-items text-center">
+							<i class="bi bi-gem fs-1 text-primary"></i>
+							<h2 class="display-5 fw-semibold mt-1 counter">9534</h2>
+							<p class="text-secondary">Theme Users</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="valution-img">
+				<img src="img/valution.jpg" alt="valution" title="valution" class="img-fluid">
+			</div>
+		</section>
+	</main>
+
+	<!-- FOOTER -->
+
+	<footer class="bg-dark">
+		<div class="footer-inner">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="footer-items pt-sm-5 pe-4">
+							<h6 class="text-white mb-4">ABOUT US</h6>
+							<p class="text-secondary">Map where your photos were taken and discover local points of
+								interest. Map where your photos.</p>
+							<p class="mb-1 text-secondary">Location: 12 London Avenue, Suite 18</p>
+							<p class="mb-1 text-secondary">E-mail: support@theme.com</p>
+							<p class="mb-1 text-secondary">Phone: 8 800 123 4567</p>
+							<ul class="list-unstyled d-flex">
+								<li>
+									<a href="javascript:void(0)" class="text-decoration-none me-3 text-white"><i
+											class="bi bi-twitter"></i></a>
+								</li>
+								<li>
+									<a href="javascript:void(0)" class="text-decoration-none me-3 text-white"><i
+											class="bi bi-instagram"></i></a>
+								</li>
+								<li>
+									<a href="javascript:void(0)" class="text-decoration-none me-3 text-white"><i
+											class="bi bi-facebook"></i></a>
+								</li>
+								<li>
+									<a href="javascript:void(0)" class="text-decoration-none me-3 text-white"><i
+											class="bi bi-pinterest"></i></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="footer-items pt-sm-5 px-4">
+							<h6 class="text-white mb-4">RECENT POSTS</h6>
+							<a href="javascript:void(0)" class="text-white text-decoration-none mb-1 d-inline-block">Map
+								where your photos were taken and discover local points.</a>
+							<span class="d-block text-secondary pb-3 mb-3">May 8, 2018</span>
+							<a href="javascript:void(0)" class="text-white text-decoration-none mb-1 d-inline-block">Map
+								where your photos were taken and discover local points.</a>
+							<span class="d-block text-secondary pb-3 mb-3">April 7, 2018</span>
+							<a href="javascript:void(0)" class="text-white text-decoration-none mb-1 d-inline-block">Map
+								where your photos were taken and discover local points.</a>
+							<span class="d-block text-secondary">September 7, 2018</span>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="footer-items pt-sm-5 px-4">
+							<h6 class="text-white mb-4">TWITTER FEED</h6>
+							<p class="text-secondary">Map where your photos were taken and discover local points of
+								interest. Map where your photos.</p>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="footer-items pt-sm-5 ps-3">
+							<h6 class="text-white mb-4">PORTFOLIO</h6>
+							<ul class="list-unstyled row">
+								<li class="col-4">
+									<a href="javascript:void(0)">
+										<img src="img/offcanvas-1.jpg" alt="offcanvas-1" title="offcanvas-1"
+											class="w-100 p-1">
+									</a>
+								</li>
+								<li class="col-4">
+									<a href="javascript:void(0)">
+										<img src="img/offcanvas-2.jpg" alt="offcanvas-2" title="offcanvas-2"
+											class="w-100 p-1">
+									</a>
+								</li>
+								<li class="col-4">
+									<a href="javascript:void(0)">
+										<img src="img/offcanvas-3.jpg" alt="offcanvas-3" title="offcanvas-3"
+											class="w-100 p-1">
+									</a>
+								</li>
+								<li class="col-4">
+									<a href="javascript:void(0)">
+										<img src="img/offcanvas-4.jpg" alt="offcanvas-4" title="offcanvas-4"
+											class="w-100 p-1">
+									</a>
+								</li>
+								<li class="col-4">
+									<a href="javascript:void(0)">
+										<img src="img/offcanvas-5.jpg" alt="offcanvas-5" title="offcanvas-5"
+											class="w-100 p-1">
+									</a>
+								</li>
+								<li class="col-4">
+									<a href="javascript:void(0)">
+										<img src="img/offcanvas-6.jpg" alt="offcanvas-6" title="offcanvas-6"
+											class="w-100 p-1">
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="copyright text-center py-3">
+			<p class="text-secondary mb-0">© 2018 Boomerang, All Rights Reserved. Design with love by <a
+					href="javascript:void(0)" class="text-decoration-none text-white">2theme</a></p>
+		</div>
+	</footer>
+
+	<!-- BACK-TO-TOP -->
+
+	<div class="back-to-top position-fixed bottom-0 end-0 bg-light rounded-circle me-4 mb-4 invisible">
+		<a href="#top" class="text-dark text-decoration-none"><span class="ti-angle-up"></span></a>
+	</div>
+
+	<!-- JQUERY -->
+
+	<script type="text/javascript" src="js/jquery-3.6.4.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+	<script type="text/javascript" src="js/slick.min.js"></script>
+	<script type="text/javascript">
+
+		$(document).ready(function () {
+			$(".toggle-menu").click(function () {
+				$(".add").slideToggle();
+			})
+		});
+
+		$(window).scroll(function () {
+
+			if ($(this).scrollTop() > 0) {
+				$("header").addClass("header-active");
+			}
+			else {
+				$("header").removeClass("header-active");
+			}
+
+			if ($(this).scrollTop() > 0) {
+				$("header li:not(.drop-down li)").addClass("li-active");
+			}
+			else {
+				$("header li:not(.dropdwon li)").removeClass("li-active");
+			}
+
+			if ($(this).scrollTop() > 0) {
+				$("header a").addClass("a-active");
+			}
+			else {
+				$("header a").removeClass("a-active");
+			}
+
+			if ($(this).scrollTop() > 0) {
+				$(".back-to-top").fadeIn();
+			}
+			else {
+				$(".back-to-top").fadeOut();
+			}
+		});
+
+		$(window).on('load', function () {
+
+			if ($('div').is('.loader')) {
+				$('.loader').delay(800).fadeOut(1000);
+			}
+
+		});
+
+		function responsive(maxWidth) {
+			if (maxWidth.matches) {
+
+				$("nav").addClass("add");
+
+			} else {
+				$("nav").removeClass("add");
+			}
+		}
+
+		var maxWidth = window.matchMedia("(max-width: 991px)");
+
+		responsive(maxWidth);
+		maxWidth.addListener(responsive);
+
+	</script>
+
+	<script type="text/javascript">
+
+		$('.autoplay').slick({
+			slidesToShow: 1,
+			slidesToScroll: 1,
+			autoplay: true,
+			autoplaySpeed: 2000,
+		});
+
+		$('.multiple-items').slick({
+			infinite: true,
+			slidesToShow: 4,
+			slidesToScroll: 4
+		});
+
+		$(document).ready(function () {
+
+			$('.counter').each(function () {
+				$(this).prop('Counter', 0).animate({
+					Counter: $(this).text()
+				}, {
+					duration: 4000,
+					easing: 'swing',
+					step: function (now) {
+						$(this).text(Math.ceil(now));
+					}
+				});
+			});
+
+		});
+	</script>
+
+</body>
+
+</html>

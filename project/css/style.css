@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Rajdhani', sans-serif;
+}
+a{
+    display: inline-block;
+}
+img{
+    width: 100%;
+    display: block;
+}
+.color-gray{
+    color: #FFFFFF99;
+}
+.color-yellow{
+    color: #FEAD10;
+}
+.color-pink{
+    color: #ab17df;
+}
+.text-wrap{
+    max-width: 650px;
+    margin: 0 auto;
+}
+.bg-gradient{
+    background-image: linear-gradient(90deg, #4e10ff, #ab17df) !important;
+}
+.bg-color{
+    background-color: #0C0324;
+}
+
+/* HEADER */
+
+header{
+    background-image: url(../img/bg.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+/* BANNER */
+
+.banner{
+    background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+
+}
+.banner h2{
+    position: relative;
+    z-index: 9;
+}
+.banner h2:before{
+    content: '';
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    padding: 20px 70px;
+    background-color: #FEAD10;
+    z-index: -1;
+}
+.banner-img{
+    width: 80%;
+    position: relative;
+    z-index: 9;
+}
+.banner-img:before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 20px;
+    left: 20px;
+    border: 2px solid #ab17df;
+    z-index: -1;
+    border-radius: 10px;
+}
+
+/* OUR-PARTNERS */
+
+.our-partners img{
+    transition: 0.4s all;
+}
+.our-partners img:hover{
+    cursor: pointer;
+    color: white !important;
+    opacity: 10 !important;
+}
+
+/* STORY */
+
+.story-contant h2{
+    position: relative;
+    top: -150px;
+    left: 0;
+    text-align: center;
+    color: white;
+    margin: 0 30px;
+    padding: 30px 10px;
+    background-color: #0C032480;
+} 
+
+.collection{
+    background-image: url(../img/bg-collection.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.collection-items{
+    background-color:#FFFFFF12;
+    padding: 10px;
+}
+.collection-items h4{
+    margin: 10px 0 0 0;
+    background-color: #0C032480;
+    padding: 10px;
+}
+
+/* ROADMAP */
+
+.roadmap{
+    background-image: url(../img/bg-roadmap-2.png), url(../img/bg-roadmap.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+.roadmap-items{
+    background-color: #FFFFFF12;
+    padding: 32px 32px 32px 32px;
+}
+.roadmap-items span{
+    width: 2px;
+    height: 30px;
+    margin: 0 10px;
+    background-color:#FFFFFF33;
+}
+.roadmap-inner{
+    background-image: url(../img/bg-roadmap-1.png);
+    background-position: center left;
+    background-repeat: no-repeat;
+}
+
+/* FAQ */
+
+.faq{
+    padding: 100px 0;
+}
+.accordion{
+    background-color: #0C0324 !important;
+}
+.accordion-item{
+    border: #0C0324 !important;
+}
+.accordion-body{
+    font-size: 18px;
+    font-weight: 200;
+    color: #FFFFFF99 !important;
+    background-color: #0C0324 !important;
+    border: #0C0324 !important;
+}
+.accordion-button{
+    color: white !important;
+    background-color: #0C0324 !important;
+    box-shadow: none !important;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+
+/* TEAM */
+
+.team{
+    padding: 100px 0;
+    background-image: url(../img/bg-team.png), url(../img/bg-team-1.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: 30% auto;
+}
+.team-items{
+    background-color: #FFFFFF12;
+    padding: 10px;
+    border-radius: 10px;
+}
+.team-items .team-contant{
+    background-color: #0C032480;
+    margin: 10px;
+    padding: 10px 0 10px 0;
+    border-radius: 10px;
+}
+.team-items .team-contant ul li a{
+    padding: 10px;
+    color: white;
+    background-color: #ab17df;
+    border-radius: 50%;
+    transition: 0.4s all;
+}
+.team-items .team-contant ul li a:hover{
+    background-color: white;
+    color: #ab17df;
+}
+
+/* TESTIMONIALS */
+
+.testimonials{
+    background-image: url(../img/bg.testimonials.png), url(../img/bg.testimonials-1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+.testimonials-img{
+    width: 70%;
+}
+.testimonials-item{
+    background-color: #FFFFFF12;
+}
+.testimonials-item img{
+    width: 10%;
+}
+
+/* MERCHANDISE */
+
+.merchandise{
+    background-image: url(../img/bg-collection.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.merchandise-items{
+    background-color: #FFFFFF12;
+}
+
+/* BLOG */
+
+.blog-items{
+    background-color: #FFFFFF12;
+}
+
+/* FOOTER */
+
+.footer-inner{
+    background-image: url(../img/bg-footer.png), linear-gradient(90deg,#4e10ff,#ab17df);
+    background-size: cover;
+}
